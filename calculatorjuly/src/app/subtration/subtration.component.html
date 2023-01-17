@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8 mt-2">
+           <div class="mb-3 " style="text-align: center;">Subtraction</div>
+            <div class="mb-3">
+                <input type="text" placeholder="enter first number" [(ngModel)]="num1" class="form-control">
+            </div>
+            <div class="mb-3">
+                <input type="text" placeholder="enter second number" [(ngModel)]="num2" class="form-control">
+            </div>
+            <div class="bt-3">
+                <button type="submit" class="btn btn-outline-danger" (click)="substractnumber()">Sub</button>
+            </div>
+        </div>
+        <div class="col-2">
+            Output={{result}}
+        </div>
+    </div>
+</div>
